@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p,h1,h2,h3 {
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+.bot {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.bot a {
+    background: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: black;
+}
+
+.cont {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.rodape {
+text-align: center;
+   background: white;
+   width: 100%;
+   padding: 40px;
+   box-sizing: border-box;
+}
+
+.introduçao {
+    background: white;
+    text-align: end;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.introduçao a {
+    background-color: red;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    width: fit-content;
+   
+}
+
+.subt {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2 );
+    padding: 40px;
+    text-align: right;
+    align-self: center;
+    
+    
+    
+    
+}
+.vantagens {
+    background: white;
+    padding: 30px;
+}
+
+
+.imagem {
+    height: 100%;
+    width: 100%;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: red;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+
+}
+
+
+
+
+
+
